@@ -9,4 +9,4 @@ With keyboard shortcuts:
 * Ctrl - Left arrorw (decrementing [number])
 * Ctrl - Right arrorw (incrementing [number])
 
-This extension is very simple! It will not chceck if the file exist, there is no handling of trailing 0's mix of numbers and text in the file name.
+This extension is very simple! It will not chceck if the file exist, there is no handling of trailing 0's and mix of numbers and text in the file name.
