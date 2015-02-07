@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Page++",
+  "description": "This extension demonstrates a browser action with kittens.",
+  "version": "1.0",
+  "permissions": [ "tabs"],
+  "background": {
+    "persistent": false,
+    "scripts": ["navigate.js"]
+  },
+ 
+  "commands": {
+    "navigate_plus": {
+      "suggested_key": { "default": "Ctrl+Right" },
+      "description": "Next page"
+    },
+    "navigate_minus": {
+      "suggested_key": { "default": "Ctrl+Left" },
+      "description": "Previous page"
+    } 
+  }
+}
