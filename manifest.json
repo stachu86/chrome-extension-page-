@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Page++",
-  "description": "This extension demonstrates a browser action with kittens.",
+  "description": "Page++ is Chrome extension that allows to increment and decrement numbers in names of internet pages.",
   "version": "1.0",
   "permissions": [ "tabs"],
   "background": {
