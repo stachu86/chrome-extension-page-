@@ -9,6 +9,10 @@
     "persistent": false,
     "scripts": ["navigate.js"]
   },
+
+  "browser_action": {
+
+  },
  
   "commands": {
     "navigate_plus": {
