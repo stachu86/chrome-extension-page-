@@ -10,3 +10,5 @@ With keyboard shortcuts:
 * Ctrl - Right arrorw (incrementing [number])
 
 This extension is very simple! It will not chceck if the file exist, there is no handling of trailing 0's and mix of numbers and text in the file name.
+
+Since you can't run own extensions in Chrome for Windows, this will be only usefull on other platforms.
