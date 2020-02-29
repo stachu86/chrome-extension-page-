@@ -15,6 +15,9 @@ chrome.commands.onCommand.addListener(function(command) {
             newNumberInName = numberInName + 1;
         if (command == "navigate_minus" && numberInName > 1)
             newNumberInName = numberInName - 1;
+	if (newNumberInName < 10 && stringNumberInName.charAt(0) == "0")
+	    newNumberInName = "0" + newNumberInName.toString();
+		
 
         url = url.replace(lastPart, lastPart.replace(stringNumberInName, newNumberInName));
         chrome.tabs.update(tab.id, {
